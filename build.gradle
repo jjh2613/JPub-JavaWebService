@@ -1,0 +1,19 @@
+plugins {
+	id 'java'
+	id 'application'
+}
+
+group = 'thecodinglive'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework:spring-core:5.3.20'
+	implementation 'org.springframework:spring-context:5.3.20'
+	implementation 'org.slf4j:slf4j-api:1.7.36'
+	implementation 'javax.annotation:javax.annotation-api:1.3.2'
+}

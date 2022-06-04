@@ -11,3 +11,9 @@
 4. ConfigImportSpringApp.java
    - @Configuration Bean 을 이용한 경우
    - 결과적으로 3번이랑 똑같음 @Import 가 추가된 예제
+# Trouble Shooting
+
+1. https://github.com/gretty-gradle-plugin/gretty/issues?q=javax 를 따른다.
+2. implementation 'javax.servlet:jstl:1.2' 를 넣는다.
+
+이후 빌드를 $ gradle war 하고 $ gradle appRun 으로 실행하자.
